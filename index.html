@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" href="styles.css">
+    </head>
+ 
+ 
+
+ 
+ <img src="BG5.png" class="logo" alt="japanese scenery">
+
+ 
+ 
+ <body>
+     
+     <nav class="navbar navbar-inverse">
+         <div class="container-fluid">
+             <div class="navbar-header">
+             </div>
+             
+             
+             <ul class="nav navbar-nav">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="Hiragana.html">Lesson Posts</a></li>
+                 <li><a href="pratice.html">Blog Posts</a></li>
+             </ul>
+             
+             
+         </div>
+     </nav>
+     
+     
+     <div class="content">
+         
+         
+         <h1>Welcome to My Website</h1>
+         <p> This website is currently a work in progress but it can still be useful.</p>
+         
+                 
+        <button id="button1" onclick="myFunc()">Click me</button>
+        <br>
+        <br>
+        <br>
+         
+         <p id="word_out"></p>
+         
+         <script>
+               var Ran_Word = document.getElementById("word_out");
+     
+         var arra = ["Water = みず (Mizu)","Coffee = コーヒー (Ko-hi)","Beer = ビール (Bi-ru)","English Tea = こうちゃ (Koucha)","Japanese Tea = にほんちゃ (Nihoncha)","Run = はしります (Hashirimasu)","Eat = たべます (Tabemasu)", "Swim = およぎます (Oyogimasu)" ];
+          
+          function myFunc() {
+                     Ran_Word.innerHTML = arra[(Math.floor(Math.random() * arra.length))];
+                 }
+         </script>
+         
+         <a href="pratice.html"> <img src="dog_test.gif" class="dog" alt="dog_image"></a>
+ </div>
+ </body>
+</html>

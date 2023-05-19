@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		687D022B29C427BE008E8C7E /* pratice.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = pratice.html; sourceTree = "<group>"; };
+		68BA851229BE6230003E6D1B /* Home.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Home.html; sourceTree = "<group>"; };
+		68BA851329BE64EE003E6D1B /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		68BA851429BE6756003E6D1B /* Hiragana.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Hiragana.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		68BA850B29BE61FE003E6D1B = {
+			isa = PBXGroup;
+			children = (
+				68BA851229BE6230003E6D1B /* Home.html */,
+				687D022B29C427BE008E8C7E /* pratice.html */,
+				68BA851429BE6756003E6D1B /* Hiragana.html */,
+				68BA851329BE64EE003E6D1B /* styles.css */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		68BA850C29BE61FE003E6D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 68BA850F29BE61FE003E6D1B /* Build configuration list for PBXProject "J_HTMl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68BA850B29BE61FE003E6D1B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		68BA851029BE61FE003E6D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		68BA851129BE61FE003E6D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68BA850F29BE61FE003E6D1B /* Build configuration list for PBXProject "J_HTMl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BA851029BE61FE003E6D1B /* Debug */,
+				68BA851129BE61FE003E6D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68BA850C29BE61FE003E6D1B /* Project object */;
+}
